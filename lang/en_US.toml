@@ -1,0 +1,7 @@
+[GENERAL]
+normal_exit="Program exited normally"
+
+[ERROR]
+unknown="Unknown error!"
+invalid_path="No such file or directory!"
+language_file="There appears to be an issue with the language file!"
