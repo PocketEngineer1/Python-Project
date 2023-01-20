@@ -10,14 +10,14 @@ if (os.path.exists('log/')):
 else:
     os.mkdir('log')
     logFile = open("log/"+now.strftime("%Y %m %d %H %M %S")+".log", "a")
-# end of if else satement
+# end
 
 def die(error = False, message = "Unknown error!"):
     logFile.close()
     if error == True:
         sys.exit(message)
     sys.exit()
-# end of function
+# end
 
 def log(message, level = 0, Print = True):
     now = datetime.datetime.now()
